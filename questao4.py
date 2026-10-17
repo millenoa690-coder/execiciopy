@@ -9,5 +9,7 @@ if media>=7.0:
     print('O aluno está \033[34mAPROVADO!\033[0m')
 elif 5.0 <= media < 6.9:
     print('O aluno está de \033[33mRECUPERAÇÃO!\033[0m')
+elif media == 10:
+    print("Aprovado com distinção!")
 else:
     print('O aluno está \033[31mREPROVADO!\033[0m')
